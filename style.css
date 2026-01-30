@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.stopwatch-container {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 16px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+.stopwatch-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Display */
+.display {
+    font-size: 42px;
+    font-weight: bold;
+    color: #1d2671;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+/* Buttons Container */
+.btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Common Button */
+.btn {
+    flex: 1;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Start Button */
+.start {
+    background: #28a745;
+    color: #fff;
+}
+
+.start:hover {
+    background: #218838;
+}
+
+/* Stop Button */
+.stop {
+    background: #dc3545;
+    color: #fff;
+}
+
+.stop:hover {
+    background: #c82333;
+}
+
+/* Reset Button */
+.reset {
+    background: #6c757d;
+    color: #fff;
+}
+
+.reset:hover {
+    background: #5a6268;
+}
